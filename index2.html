@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edickjack</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <!-- <link rel="Website Icon" href="/imagenes/logo carta1.png">7 -->
+    <!-- <link rel="Website Icon" href="/imagenes/logo34.png">10 -->
+    <!-- <link rel="Website Icon" href="/imagenes/logo35.webp">8 -->
+    <link rel="Website Icon" href="/imagenes/logooooo.png">
+</head>
+<body>
+    <Header>
+        <h1 >EDICKJACK</h1>         
+        <img src="/imagenes/logooooo.png" alt=""width="40" height="40">
+
+    </Header>
+    <!-- <h2>JUEGO DE CARTAS 21</h2> -->
+    <main>
+        <section class="container">
+            <form action="">
+                <div id="respJugador">
+                    Puntos Jugador
+                </div>
+                <div id="respMaquina">
+                    Puntos Maquina
+                </div>
+                <div class="botones">
+                    <button type="button" class="boton" onClick="jugador()" id="pedir">Pedir Carta</button>
+                    <button type="button" class="boton" onclick="puntos()" id="puntuaciones">Plantarme</button>
+                </div>
+                <div id="comenzar">
+                    <button type="button" class="boton" onclick="empezar()" id="play">Empezar</button>
+                </div>
+                <div id="playagain">
+                    <input type="button" value="Jugar otra vez!" id="reset" onclick="playagain()" >
+                </div>
+                <div id="info"> 
+                    Ganador
+                </div>
+                <div id="resp">
+                    Cartas
+                </div>
+                <div id="cartasJugador">
+                    <h2>Cartas Jugador</h2>
+                    <img id="carta1J" src="" alt="." width="100" height="150">
+                    <img id="carta2J" src="" alt="." width="100" height="150">
+                    <img id="carta3J" src="" alt="." width="100" height="150">
+                    <img id="carta4J" src="" alt="." width="100" height="150">
+                    <img id="carta5J" src="" alt="." width="100" height="150">
+                    <img id="carta6J" src="" alt="." width="100" height="150">
+                    <img id="carta7J" src="" alt="." width="100" height="150">
+                </div>
+                <div id="cartasMaquina">
+                    <h2>Cartas Maquina</h2>
+                    <img id="carta1M" src="" alt="." width="100" height="150">
+                    <img id="carta2M" src="" alt="." width="100" height="150">
+                    <img id="carta3M" src="" alt="." width="100" height="150">
+                    <img id="carta4M" src="" alt="." width="100" height="150">
+                </div>
+
+            </form>
+        </section>
+    <SCRipt src="/js/blackjack.js"></SCRipt>
+    </main>
+    <footer>
+        <h5> Jonathan Pérez</h5>
+        <h6> © 2023 EDICK Corp.</h6>
+
+    </footer>
+</body>
+</html>

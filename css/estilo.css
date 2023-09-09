@@ -1,0 +1,181 @@
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+}
+h2{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+h5{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgb(177, 177, 177);
+    padding: 1px;
+    margin: 5px;
+}
+h6{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: darkgray;
+    padding: 1px;
+    margin: 5px;
+    
+}
+header{
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    /* background-image: url("/imagenes/img\ 2\ Messi\ bicho.webp"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    )
+    ,url("/imagenes/img\ 2\ Messi\ bicho.webp");
+}
+.container{
+    display: flex;
+    flex-direction: r;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    max-width: auto;
+    margin: 10px auto;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 32px;
+ }
+ 
+.boton {
+    font-family: 'Segoe UI';
+    display: inline-block;
+    padding: 7px 20px;
+    background-color:#abd1c6;
+    color: #001e1d;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.9s ease-in-out;
+    box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+     
+}
+
+#comenzar{
+    text-align: center;
+}
+
+#playagain{
+    text-align: center;
+    margin: 10px;
+}
+input {
+    font-family: 'Segoe UI';
+    display: inline-block;
+    padding: 7px 20px;
+    background-color:#abd1c6;
+    color: #001e1d;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.9s ease-in-out;
+    box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+}
+#respJugador {
+    font-family: 'Segoe UI';
+    font-size:small;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 10px auto;
+    color:#fffffe;
+    font-weight: 900;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+}
+#respMaquina {
+    font-family: 'Segoe UI';
+    font-size:small;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    color:#fffffe;
+    font-weight: 900;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+}
+#info {
+    font-family: 'Segoe UI';
+    font-size:small;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    color:#fffffe;
+    font-weight: 900;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+  }
+#resp {
+    visibility: hidden;
+    font-family: 'Segoe UI';
+    font-size:small;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    color:#fffffe;
+    font-weight: 900;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+  }
+.botones{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    margin: 10px;
+}
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-start;
+    height: 10vh;
+    overflow: auto;
+    flex-direction: row;
+}
+#cartasJugador{
+    padding: 20px;
+    visibility: hidden;
+    
+}
+#cartasMaquina{
+    padding: 20px;
+    visibility: hidden;
+    
+}
